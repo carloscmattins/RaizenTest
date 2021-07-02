@@ -10,5 +10,5 @@ Para a realização dos testes uitlizar os seguintes artefatos :
 
 [Raizen.ipynb](https://github.com/carloscmattins/RaizenTest/blob/main/Raizen.ipynb) - Arquivo do tipo NOTEBOOK responsavel para o processo do pipeline
 
-No arquivo Raizen.ipynb substituir o trecho em destaque pelo caminho onde se encontra o artefato ExcelRaizen.xlsx e a Sheet_Name - (Sheet1 ou Sheet2) para analise do resultado.
+No arquivo <b>Raizen.ipynb</b> substituir o trecho em destaque pelo caminho onde se encontra o artefato ExcelRaizen.xlsx e a <b>Sheet_Name</b> - (Sheet1 ou Sheet2) para analise do resultado.
 ![Tela](https://user-images.githubusercontent.com/30783094/124328930-e7f70100-db60-11eb-8fd0-6aebe54ff61d.GIF)
