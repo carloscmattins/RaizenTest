@@ -8,7 +8,7 @@ Para a realização dos testes uitlizar os seguintes artefatos :
 * Sales of oil derivative fuels by UF and product
 
 
-[Raizen.ipynb](https://github.com/carloscmattins/RaizenTest/blob/main/Raizen.ipynb) - Arquivo do tipo NOTEBOOK responsavel para o processo do pipeline
+[RaizenTest.ipynb](https://github.com/carloscmattins/RaizenTest/blob/main/RaizenTest.ipynb) - Arquivo do tipo NOTEBOOK responsavel para o processo do pipeline
 
 
 <B>DOCKER</B>
