@@ -11,6 +11,12 @@ Para a realização dos testes uitlizar os seguintes artefatos :
 [RaizenTest.ipynb](https://github.com/carloscmattins/RaizenTest/blob/main/RaizenTest.ipynb) - Arquivo do tipo NOTEBOOK responsavel para o processo do pipeline
 
 
+<b>OBSERVACAO: </b>
+
+Salvar esses 2 arquivos numa mesma pasta na maquina local para usar como mapeamento futuro com a workspace da maquina Jupyter-Notebook definido logo abaixo
+
+----
+
 <B>DOCKER</B>
 
 Para realização dos testes do PIPELINE foram usados 2 containers: MYSQL e JUPYTER NOTEBOOK :
@@ -24,6 +30,8 @@ Para realização dos testes do PIPELINE foram usados 2 containers: MYSQL e JUPY
 * docker run -p 3307:3306 --name mysql -e MYSQL_ROOT_PASSWORD=root -d mysql:5.7
 * docker run -it -v <b>caminho a definir na maquina local:/home/jovyan/workspace</b>  --name <b>nome da imagem</b> -p 8888:8888 jupyter/minimal-notebook
 
+<b>O caminho a definir acima no mapeamento usar o mesmo onde estao os arquivos baixados do GITHUB, para facilitar o mapeamento entre a maquina local e a worskpace da maquina do Jupyter-Notebook</b>
+
 Obs. Caso utilize a imagem do JUPYTER/MINIMAL-NOTEBOOK sera necessario instalar alguns frameworks adicionais para rodar o PIPELINE
 
 * docker exec <b>CONTAINER ID</b> pip install pandas
@@ -31,7 +39,7 @@ Obs. Caso utilize a imagem do JUPYTER/MINIMAL-NOTEBOOK sera necessario instalar 
 * docker exec <b>CONTAINER ID</b> pip install xlrd
 * docker exec <b>CONTAINER ID</b> pip install sqlalchemy
 
-
+-----
 <b>MYSQL</b>
 
 Conectar na maquina criada através do seguinte comando :
