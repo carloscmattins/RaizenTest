@@ -32,6 +32,35 @@ Obs. Caso utilize a imagem do JUPYTER/MINIMAL-NOTEBOOK sera necessario instalar 
 * docker exec <b>CONTAINER ID</b> pip install sqlalchemy
 
 
+<b>MYSQL</b>
+
+Conectar na maquina criada através do seguinte comando :
+
+* docker exec -it <b>container id mysql</b> bash
+
+Digitar o seguinte comando:
+
+* mysql -uroot -p
+* Digitar a senha que no caso é <b>root</b>
+
+Após entrar no banco criar o DATABASE raizen :
+ 
+ * create database raizen;
+ 
+Entrar em seguida no database :
+
+* use raizen;
+
+Criar a tabela que sera utilizada para carregar as informações vindas do PIPELINE :
+
+create table t_raizen (
+yearmonth date, 
+uf varchar(30),
+product varchar(100),
+unit varchar(10),
+volume double(20,2),
+created_at timestamp
+);
 
 
 No arquivo <b>Raizen.ipynb</b> substituir o trecho em destaque pelo caminho onde se encontra o artefato ExcelRaizen.xlsx e a <b>Sheet_Name</b> - (Sheet1 ou Sheet2) para analise do resultado.
