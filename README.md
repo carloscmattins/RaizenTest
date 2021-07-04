@@ -8,6 +8,9 @@ Para a realização dos testes uitlizar os seguintes artefatos :
 * Sales of oil derivative fuels by UF and product
 
 
+[Raizen.ipynb](https://github.com/carloscmattins/RaizenTest/blob/main/Raizen.ipynb) - Arquivo do tipo NOTEBOOK responsavel para o processo do pipeline
+
+
 <B>DOCKER</B>
 
 Para realização dos testes do PIPELINE foram usados 2 containers: MYSQL e JUPYTER NOTEBOOK :
@@ -30,7 +33,6 @@ Obs. Caso utilize a imagem do JUPYTER/MINIMAL-NOTEBOOK sera necessario instalar 
 
 
 
-[Raizen.ipynb](https://github.com/carloscmattins/RaizenTest/blob/main/Raizen.ipynb) - Arquivo do tipo NOTEBOOK responsavel para o processo do pipeline
 
 No arquivo <b>Raizen.ipynb</b> substituir o trecho em destaque pelo caminho onde se encontra o artefato ExcelRaizen.xlsx e a <b>Sheet_Name</b> - (Sheet1 ou Sheet2) para analise do resultado.
 ![Tela](https://user-images.githubusercontent.com/30783094/124328930-e7f70100-db60-11eb-8fd0-6aebe54ff61d.GIF)
