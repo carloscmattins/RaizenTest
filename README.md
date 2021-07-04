@@ -53,14 +53,14 @@ Entrar em seguida no database :
 
 Criar a tabela que sera utilizada para carregar as informações vindas do PIPELINE :
 
-create table t_raizen (
+<b>create table t_raizen (
 yearmonth date, 
 uf varchar(30),
 product varchar(100),
 unit varchar(10),
 volume double(20,2),
 created_at timestamp
-);
+);</b>
 
 
 No arquivo <b>Raizen.ipynb</b> substituir o trecho em destaque pelo caminho onde se encontra o artefato ExcelRaizen.xlsx e a <b>Sheet_Name</b> - (Sheet1 ou Sheet2) para analise do resultado.
