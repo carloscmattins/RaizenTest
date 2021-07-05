@@ -100,8 +100,7 @@ Sera necesario ajustar o IP da maquina de quem for executar o script, achar no s
 
 <b>engine = sqlalchemy.create_engine('mysql+pymysql://root:root@IPDAMAQUINALOCAL:3307/raizen')</b>
 
-![AjustarIPAcesso](https://user-images.githubusercontent.com/30783094/124404746-91312900-dd12-11eb-94c8-24c75664d904.gif)
-
+![AjustarIPAcesso](https://user-images.githubusercontent.com/30783094/124404945-6bf0ea80-dd13-11eb-9429-1a63587490c8.gif)
 
 Feito esse ajuste rodar todos os trechos do script....
 
