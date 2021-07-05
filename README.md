@@ -52,7 +52,7 @@ Digitar o seguinte comando:
 * Digitar a senha que no caso é <b>root</b>
 
 
-Foi disponibilizado um script de criacao do Database e Tabela para ingestao dos dados abaixo ou seguir o passo a passo tambem.
+Foi disponibilizado um script de criacao do Database e Tabela para ingestao dos dados abaixo ou seguir o passo a passo conforme preferir
 
 [ScriptMysql.sql](https://github.com/carloscmattins/RaizenTest/blob/main/scriptMysql.sql)
 
