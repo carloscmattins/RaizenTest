@@ -87,6 +87,21 @@ No meu caso foi solicitado o <b>TOKEN</b> de acesso, tive que somente localizar 
 
 ![TelaTokenJupyter](https://user-images.githubusercontent.com/30783094/124404156-1404b480-dd10-11eb-9998-988b9d7dc510.GIF)
 
+Após a autenticação sera exibida a Tela inicial com o <B>workspace</B> onde estarao os artefatos para o PIPELINE
+
+![TelaInicialJupyter](https://user-images.githubusercontent.com/30783094/124404243-807fb380-dd10-11eb-871c-ab6c385eccd3.GIF)
+
+Selecionar o o arquivo <b>RaizenTest.ipynb</b> conforme tela abaixo :
+
+![TelaScriptJupyter](https://user-images.githubusercontent.com/30783094/124404442-4d89ef80-dd11-11eb-9d55-c46bf3811800.GIF)
+
+
+Sera necesario ajustar o IP da maquina de quem for executar o script, achar no script o seguinte trecho
+
+<b>engine = sqlalchemy.create_engine('mysql+pymysql://root:root@IPDAMAQUINALOCAL:3307/raizen')</b>
+
+![AjustarIPAcesso](https://user-images.githubusercontent.com/30783094/124404746-91312900-dd12-11eb-94c8-24c75664d904.gif)
+
 
 
 
