@@ -85,6 +85,7 @@ Para acessar o ambiente digitar o seguinte comando :
 
 No meu caso foi solicitado o <b>TOKEN</b> de acesso, tive que somente localizar na maquina o token conforme tela abaixo e copiar e colar no Browser.
 
+![TelaTokenJupyter](https://user-images.githubusercontent.com/30783094/124404156-1404b480-dd10-11eb-9998-988b9d7dc510.GIF)
 
 
 
