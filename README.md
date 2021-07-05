@@ -75,6 +75,23 @@ volume double(20,2),
 created_at timestamp
 );</b>
 
+---
+<b>JUPYTER NOTEBOOK</b>
 
-No arquivo <b>Raizen.ipynb</b> substituir o trecho em destaque pelo caminho onde se encontra o artefato ExcelRaizen.xlsx e a <b>Sheet_Name</b> - (Sheet1 ou Sheet2) para analise do resultado.
-![Tela](https://user-images.githubusercontent.com/30783094/124328930-e7f70100-db60-11eb-8fd0-6aebe54ff61d.GIF)
+Foi desenvolvido um script <b>RaizenTest.ipynb</b> utilizando o framework PANDAS para leitura do arquivo em EXCEL alem da gravacao na base de Dados Mysql e sua Leitura após a carga dos dados.
+
+Para acessar o ambiente digitar o seguinte comando :
+* http://localhost:8888/
+
+No meu caso foi solicitado o <b>TOKEN</b> de acesso, tive que somente localizar na maquina o token conforme tela abaixo e copiar e colar no Browser.
+
+
+
+
+
+
+
+
+
+
+
