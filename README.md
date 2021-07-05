@@ -51,6 +51,11 @@ Digitar o seguinte comando:
 * mysql -uroot -p
 * Digitar a senha que no caso é <b>root</b>
 
+
+Foi disponibilizado um script de criacao do Database e Tabela para ingestao dos dados.
+
+[ScriptMysql.sql]
+
 Após entrar no banco criar o DATABASE raizen :
  
  * create database raizen;
