@@ -52,9 +52,9 @@ Digitar o seguinte comando:
 * Digitar a senha que no caso é <b>root</b>
 
 
-Foi disponibilizado um script de criacao do Database e Tabela para ingestao dos dados.
+Foi disponibilizado um script de criacao do Database e Tabela para ingestao dos dados abaixo ou seguir o passo a passo tambem.
 
-[ScriptMysql.sql]
+[ScriptMysql.sql](https://github.com/carloscmattins/RaizenTest/blob/main/scriptMysql.sql)
 
 Após entrar no banco criar o DATABASE raizen :
  
