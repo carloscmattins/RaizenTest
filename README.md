@@ -103,8 +103,14 @@ Sera necesario ajustar o IP da maquina de quem for executar o script, achar no s
 ![AjustarIPAcesso](https://user-images.githubusercontent.com/30783094/124404746-91312900-dd12-11eb-94c8-24c75664d904.gif)
 
 
+Feito esse ajuste rodar todos os trechos do script....
 
+----
+<b>EVIDENCIA</b>
 
+Segue uma imagem da evidencia de carga através do SELECT pelo script no final da execuação
+
+![EvidenciaCarga](https://user-images.githubusercontent.com/30783094/124404884-30eeb700-dd13-11eb-85c5-cbaa493e8b99.GIF)
 
 
 
